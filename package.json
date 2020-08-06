@@ -1,0 +1,10 @@
+{
+  "name": "gitparse",
+  "version": "1.0.0",
+  "description": "parse github for Java code",
+  "main": "extract.js",
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  }
+}

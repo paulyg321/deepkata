@@ -1,0 +1,7 @@
+{
+  "name": "parse",
+  "version": "1.0.0",
+  "description": "parse JSON for only unique values",
+  "main": "parse.js",
+  "license": "MIT"
+}
