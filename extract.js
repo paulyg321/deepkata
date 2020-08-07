@@ -47,7 +47,7 @@ const retrieveFromUrl = (repoName) => {
                             fs.writeFileSync(codeFilesPath, body)
                         })
                 })
-
+                console.log("Pre PMD")
                 executePMD(directoryName);
             }
         })
