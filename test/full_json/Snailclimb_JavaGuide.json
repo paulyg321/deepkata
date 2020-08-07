@@ -1,0 +1,613 @@
+{
+  "formatVersion": 0,
+  "pmdVersion": "6.26.0",
+  "timestamp": "2020-08-06T20:33:05.045-04:00",
+  "files": [
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/Snailclimb_JavaGuide/CallableDemo.java",
+      "violations": [
+        {
+          "beginline": 18,
+          "begincolumn": 27,
+          "endline": 48,
+          "endcolumn": 1,
+          "description": "All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.",
+          "rule": "UseUtilityClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#useutilityclass"
+        },
+        {
+          "beginline": 18,
+          "begincolumn": 8,
+          "endline": 48,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 19,
+          "begincolumn": 29,
+          "endline": 19,
+          "endcolumn": 41,
+          "description": "Parameter \u0027args\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 19,
+          "begincolumn": 19,
+          "endline": 47,
+          "endcolumn": 5,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 22,
+          "begincolumn": 9,
+          "endline": 28,
+          "endcolumn": 58,
+          "description": "Local variable \u0027executor\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 22,
+          "begincolumn": 9,
+          "endline": 22,
+          "endcolumn": 26,
+          "description": "To be compliant to J2EE, a webapp should not use any thread.",
+          "rule": "DoNotUseThreads",
+          "ruleset": "Multithreading",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_multithreading.html#donotusethreads"
+        },
+        {
+          "beginline": 22,
+          "begincolumn": 43,
+          "endline": 22,
+          "endcolumn": 60,
+          "description": "To be compliant to J2EE, a webapp should not use any thread.",
+          "rule": "DoNotUseThreads",
+          "ruleset": "Multithreading",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_multithreading.html#donotusethreads"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 9,
+          "endline": 30,
+          "endcolumn": 59,
+          "description": "Local variable \u0027futureList\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 31,
+          "begincolumn": 26,
+          "endline": 47,
+          "endcolumn": 52,
+          "description": "Found \u0027DU\u0027-anomaly for variable \u0027callable\u0027 (lines \u002731\u0027-\u002747\u0027).",
+          "rule": "DataflowAnomalyAnalysis",
+          "ruleset": "Error Prone",
+          "priority": 5,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis"
+        },
+        {
+          "beginline": 31,
+          "begincolumn": 9,
+          "endline": 31,
+          "endcolumn": 52,
+          "description": "Local variable \u0027callable\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 34,
+          "begincolumn": 13,
+          "endline": 34,
+          "endcolumn": 61,
+          "description": "Local variable \u0027future\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 38,
+          "begincolumn": 14,
+          "endline": 38,
+          "endcolumn": 31,
+          "description": "Local variable \u0027fut\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 40,
+          "begincolumn": 36,
+          "endline": 40,
+          "endcolumn": 45,
+          "description": "Avoid instantiating new objects inside loops",
+          "rule": "AvoidInstantiatingObjectsInLoops",
+          "ruleset": "Performance",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops"
+        },
+        {
+          "beginline": 40,
+          "begincolumn": 17,
+          "endline": 40,
+          "endcolumn": 34,
+          "description": "System.out.println is used",
+          "rule": "SystemPrintln",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_bestpractices.html#systemprintln"
+        },
+        {
+          "beginline": 42,
+          "begincolumn": 17,
+          "endline": 42,
+          "endcolumn": 35,
+          "description": "Avoid printStackTrace(); use a logger call instead.",
+          "rule": "AvoidPrintStackTrace",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 9,
+          "endline": 46,
+          "endcolumn": 25,
+          "description": "To be compliant to J2EE, a webapp should not use any thread.",
+          "rule": "DoNotUseThreads",
+          "ruleset": "Multithreading",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_multithreading.html#donotusethreads"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/Snailclimb_JavaGuide/MyCallable.java",
+      "violations": [
+        {
+          "beginline": 5,
+          "begincolumn": 8,
+          "endline": 13,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 5,
+          "begincolumn": 8,
+          "endline": 13,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 11,
+          "begincolumn": 16,
+          "endline": 11,
+          "endcolumn": 47,
+          "description": "Potential violation of Law of Demeter (method chain calls)",
+          "rule": "LawOfDemeter",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#lawofdemeter"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/Snailclimb_JavaGuide/MyRunnable.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 9,
+          "endline": 1,
+          "endcolumn": 26,
+          "description": "Package name contains upper case characters",
+          "rule": "PackageCase",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#packagecase"
+        },
+        {
+          "beginline": 11,
+          "begincolumn": 13,
+          "endline": 11,
+          "endcolumn": 27,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 11,
+          "begincolumn": 20,
+          "endline": 11,
+          "endcolumn": 26,
+          "description": "Found non-transient, non-static member. Please mark as transient or provide accessors.",
+          "rule": "BeanMembersShouldSerialize",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize"
+        },
+        {
+          "beginline": 11,
+          "begincolumn": 20,
+          "endline": 11,
+          "endcolumn": 26,
+          "description": "Private field \u0027command\u0027 could be made final; it is only initialized in the declaration or constructor.",
+          "rule": "ImmutableField",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#immutablefield"
+        },
+        {
+          "beginline": 13,
+          "begincolumn": 30,
+          "endline": 13,
+          "endcolumn": 30,
+          "description": "Avoid variables with short names like s",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 13,
+          "begincolumn": 23,
+          "endline": 13,
+          "endcolumn": 30,
+          "description": "Parameter \u0027s\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 13,
+          "begincolumn": 12,
+          "endline": 15,
+          "endcolumn": 5,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 19,
+          "begincolumn": 28,
+          "endline": 19,
+          "endcolumn": 59,
+          "description": "Potential violation of Law of Demeter (method chain calls)",
+          "rule": "LawOfDemeter",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#lawofdemeter"
+        },
+        {
+          "beginline": 19,
+          "begincolumn": 9,
+          "endline": 19,
+          "endcolumn": 26,
+          "description": "System.out.println is used",
+          "rule": "SystemPrintln",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_bestpractices.html#systemprintln"
+        },
+        {
+          "beginline": 21,
+          "begincolumn": 28,
+          "endline": 21,
+          "endcolumn": 59,
+          "description": "Potential violation of Law of Demeter (method chain calls)",
+          "rule": "LawOfDemeter",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#lawofdemeter"
+        },
+        {
+          "beginline": 21,
+          "begincolumn": 9,
+          "endline": 21,
+          "endcolumn": 26,
+          "description": "System.out.println is used",
+          "rule": "SystemPrintln",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_bestpractices.html#systemprintln"
+        },
+        {
+          "beginline": 28,
+          "begincolumn": 13,
+          "endline": 28,
+          "endcolumn": 31,
+          "description": "Avoid printStackTrace(); use a logger call instead.",
+          "rule": "AvoidPrintStackTrace",
+          "ruleset": "Best Practices",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_bestpractices.html#avoidprintstacktrace"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/Snailclimb_JavaGuide/ThreadPoolConstants.java",
+      "violations": [
+        {
+          "beginline": 3,
+          "begincolumn": 8,
+          "endline": 11,
+          "endcolumn": 1,
+          "description": "A class which only has private constructors should be final",
+          "rule": "ClassWithOnlyPrivateConstructorsShouldBeFinal",
+          "ruleset": "Design",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#classwithonlyprivateconstructorsshouldbefinal"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 8,
+          "endline": 11,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 25,
+          "endline": 4,
+          "endcolumn": 47,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 5,
+          "begincolumn": 25,
+          "endline": 5,
+          "endcolumn": 47,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 6,
+          "begincolumn": 25,
+          "endline": 6,
+          "endcolumn": 49,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 7,
+          "begincolumn": 25,
+          "endline": 7,
+          "endcolumn": 50,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/Snailclimb_JavaGuide/ThreadPoolExecutorDemo.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 9,
+          "endline": 1,
+          "endcolumn": 26,
+          "description": "Package name contains upper case characters",
+          "rule": "PackageCase",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#packagecase"
+        },
+        {
+          "beginline": 13,
+          "begincolumn": 37,
+          "endline": 39,
+          "endcolumn": 1,
+          "description": "All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.",
+          "rule": "UseUtilityClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#useutilityclass"
+        },
+        {
+          "beginline": 13,
+          "begincolumn": 8,
+          "endline": 39,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 15,
+          "begincolumn": 29,
+          "endline": 15,
+          "endcolumn": 41,
+          "description": "Parameter \u0027args\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 15,
+          "begincolumn": 19,
+          "endline": 38,
+          "endcolumn": 5,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 19,
+          "begincolumn": 9,
+          "endline": 25,
+          "endcolumn": 58,
+          "description": "Local variable \u0027executor\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 19,
+          "begincolumn": 9,
+          "endline": 19,
+          "endcolumn": 26,
+          "description": "To be compliant to J2EE, a webapp should not use any thread.",
+          "rule": "DoNotUseThreads",
+          "ruleset": "Multithreading",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_multithreading.html#donotusethreads"
+        },
+        {
+          "beginline": 19,
+          "begincolumn": 43,
+          "endline": 19,
+          "endcolumn": 60,
+          "description": "To be compliant to J2EE, a webapp should not use any thread.",
+          "rule": "DoNotUseThreads",
+          "ruleset": "Multithreading",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_multithreading.html#donotusethreads"
+        },
+        {
+          "beginline": 29,
+          "begincolumn": 31,
+          "endline": 29,
+          "endcolumn": 52,
+          "description": "Avoid instantiating new objects inside loops",
+          "rule": "AvoidInstantiatingObjectsInLoops",
+          "ruleset": "Performance",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops"
+        },
+        {
+          "beginline": 29,
+          "begincolumn": 46,
+          "endline": 29,
+          "endcolumn": 47,
+          "description": "Do not add empty strings",
+          "rule": "AddEmptyString",
+          "ruleset": "Performance",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_performance.html#addemptystring"
+        },
+        {
+          "beginline": 29,
+          "begincolumn": 13,
+          "endline": 29,
+          "endcolumn": 52,
+          "description": "Local variable \u0027worker\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 31,
+          "begincolumn": 13,
+          "endline": 31,
+          "endcolumn": 28,
+          "description": "To be compliant to J2EE, a webapp should not use any thread.",
+          "rule": "DoNotUseThreads",
+          "ruleset": "Multithreading",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_multithreading.html#donotusethreads"
+        },
+        {
+          "beginline": 34,
+          "begincolumn": 9,
+          "endline": 34,
+          "endcolumn": 25,
+          "description": "To be compliant to J2EE, a webapp should not use any thread.",
+          "rule": "DoNotUseThreads",
+          "ruleset": "Multithreading",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_multithreading.html#donotusethreads"
+        },
+        {
+          "beginline": 35,
+          "begincolumn": 42,
+          "endline": 36,
+          "endcolumn": 9,
+          "description": "Avoid empty while statements",
+          "rule": "EmptyWhileStmt",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#emptywhilestmt"
+        },
+        {
+          "beginline": 37,
+          "begincolumn": 9,
+          "endline": 37,
+          "endcolumn": 26,
+          "description": "System.out.println is used",
+          "rule": "SystemPrintln",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_bestpractices.html#systemprintln"
+        }
+      ]
+    }
+  ],
+  "suppressedViolations": [],
+  "processingErrors": [],
+  "configurationErrors": [
+    {
+      "rule": "LoosePackageCoupling",
+      "ruleset": "Design",
+      "message": "No packages or classes specified"
+    }
+  ]
+}

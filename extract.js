@@ -67,6 +67,8 @@ const executePMD = (folderName) => {
             console.log("stdout:", stdout);
             console.log("stderr:", stderr);
         })
+
+    console.log("after exec")
     }
 
 

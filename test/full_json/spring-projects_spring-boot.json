@@ -1,0 +1,2311 @@
+{
+  "formatVersion": 0,
+  "pmdVersion": "6.26.0",
+  "timestamp": "2020-08-06T20:33:06.027-04:00",
+  "files": [
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/BootRunJvmArgsApplication.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 26,
+          "begincolumn": 40,
+          "endline": 39,
+          "endcolumn": 1,
+          "description": "All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.",
+          "rule": "UseUtilityClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#useutilityclass"
+        },
+        {
+          "beginline": 28,
+          "begincolumn": 19,
+          "endline": 30,
+          "endcolumn": 9,
+          "description": "Document empty constructor",
+          "rule": "UncommentedEmptyConstructor",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#uncommentedemptyconstructor"
+        },
+        {
+          "beginline": 28,
+          "begincolumn": 19,
+          "endline": 30,
+          "endcolumn": 9,
+          "description": "Protected method constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 32,
+          "begincolumn": 33,
+          "endline": 32,
+          "endcolumn": 45,
+          "description": "Parameter \u0027args\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 32,
+          "begincolumn": 23,
+          "endline": 37,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 33,
+          "begincolumn": 21,
+          "endline": 33,
+          "endcolumn": 21,
+          "description": "Avoid variables with short names like i",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 33,
+          "begincolumn": 21,
+          "endline": 37,
+          "endcolumn": 25,
+          "description": "Found \u0027DU\u0027-anomaly for variable \u0027i\u0027 (lines \u002733\u0027-\u002737\u0027).",
+          "rule": "DataflowAnomalyAnalysis",
+          "ruleset": "Error Prone",
+          "priority": 5,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis"
+        },
+        {
+          "beginline": 34,
+          "begincolumn": 22,
+          "endline": 34,
+          "endcolumn": 33,
+          "description": "Local variable \u0027entry\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 34,
+          "begincolumn": 37,
+          "endline": 34,
+          "endcolumn": 92,
+          "description": "Potential violation of Law of Demeter (method chain calls)",
+          "rule": "LawOfDemeter",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#lawofdemeter"
+        },
+        {
+          "beginline": 35,
+          "begincolumn": 25,
+          "endline": 35,
+          "endcolumn": 42,
+          "description": "System.out.println is used",
+          "rule": "SystemPrintln",
+          "ruleset": "Best Practices",
+          "priority": 2,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_bestpractices.html#systemprintln"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/CouchbaseRepositoriesAutoConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 47,
+          "begincolumn": 8,
+          "endline": 49,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/DownloadConfigBuilderCustomizer.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 1,
+          "endline": 24,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 37,
+          "begincolumn": 46,
+          "endline": 37,
+          "endcolumn": 66,
+          "description": "Avoid excessively long variable names like downloadConfigBuilder",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/EnableChildManagementContextConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 29,
+          "begincolumn": 1,
+          "endline": 31,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/InDefaultPackageConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 8,
+          "endline": 26,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 8,
+          "endline": 26,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/InDefaultPackageWithBasePackageClassesConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 25,
+          "begincolumn": 8,
+          "endline": 27,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 25,
+          "begincolumn": 8,
+          "endline": 27,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/InDefaultPackageWithBasePackagesConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 8,
+          "endline": 26,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 8,
+          "endline": 26,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/InDefaultPackageWithMetaAnnotationConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 8,
+          "endline": 26,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 8,
+          "endline": 26,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/InDefaultPackageWithValueConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 8,
+          "endline": 26,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 8,
+          "endline": 26,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/InDefaultPackageWithoutScanConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 22,
+          "begincolumn": 8,
+          "endline": 24,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 22,
+          "begincolumn": 8,
+          "endline": 24,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/InOrgSpringPackageConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 8,
+          "endline": 26,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 8,
+          "endline": 26,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/InRealPackageConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 8,
+          "endline": 26,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 24,
+          "begincolumn": 8,
+          "endline": 26,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/JmsPoolConnectionFactoryProperties.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 27,
+          "begincolumn": 8,
+          "endline": 137,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 27,
+          "begincolumn": 8,
+          "endline": 137,
+          "endcolumn": 1,
+          "description": "The class \u0027JmsPoolConnectionFactoryProperties\u0027 is suspected to be a Data Class (WOC\u003d0.000%, NOPA\u003d0, NOAM\u003d16, WMC\u003d16)",
+          "rule": "DataClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#dataclass"
+        },
+        {
+          "beginline": 44,
+          "begincolumn": 26,
+          "endline": 44,
+          "endcolumn": 43,
+          "description": "Avoid excessively long variable names like blockIfFullTimeout",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 59,
+          "begincolumn": 21,
+          "endline": 59,
+          "endcolumn": 44,
+          "description": "Avoid excessively long variable names like maxSessionsPerConnection",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 62,
+          "begincolumn": 1,
+          "endline": 62,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 65,
+          "begincolumn": 26,
+          "endline": 65,
+          "endcolumn": 51,
+          "description": "Avoid excessively long variable names like timeBetweenExpirationCheck",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 68,
+          "begincolumn": 1,
+          "endline": 68,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 71,
+          "begincolumn": 25,
+          "endline": 71,
+          "endcolumn": 45,
+          "description": "Avoid excessively long variable names like useAnonymousProducers",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 77,
+          "begincolumn": 32,
+          "endline": 77,
+          "endcolumn": 46,
+          "description": "Parameter \u0027enabled\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 85,
+          "begincolumn": 36,
+          "endline": 85,
+          "endcolumn": 54,
+          "description": "Parameter \u0027blockIfFull\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 93,
+          "begincolumn": 52,
+          "endline": 93,
+          "endcolumn": 69,
+          "description": "Avoid excessively long variable names like blockIfFullTimeout",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 93,
+          "begincolumn": 43,
+          "endline": 93,
+          "endcolumn": 69,
+          "description": "Parameter \u0027blockIfFullTimeout\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 101,
+          "begincolumn": 36,
+          "endline": 101,
+          "endcolumn": 55,
+          "description": "Parameter \u0027idleTimeout\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 109,
+          "begincolumn": 39,
+          "endline": 109,
+          "endcolumn": 56,
+          "description": "Parameter \u0027maxConnections\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 117,
+          "begincolumn": 53,
+          "endline": 117,
+          "endcolumn": 76,
+          "description": "Avoid excessively long variable names like maxSessionsPerConnection",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 117,
+          "begincolumn": 49,
+          "endline": 117,
+          "endcolumn": 76,
+          "description": "Parameter \u0027maxSessionsPerConnection\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 125,
+          "begincolumn": 60,
+          "endline": 125,
+          "endcolumn": 85,
+          "description": "Avoid excessively long variable names like timeBetweenExpirationCheck",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 125,
+          "begincolumn": 51,
+          "endline": 125,
+          "endcolumn": 85,
+          "description": "Parameter \u0027timeBetweenExpirationCheck\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 133,
+          "begincolumn": 54,
+          "endline": 133,
+          "endcolumn": 74,
+          "description": "Avoid excessively long variable names like useAnonymousProducers",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 133,
+          "begincolumn": 46,
+          "endline": 133,
+          "endcolumn": 74,
+          "description": "Parameter \u0027useAnonymousProducers\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/JmxEndpointProperties.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 32,
+          "begincolumn": 8,
+          "endline": 93,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 32,
+          "begincolumn": 8,
+          "endline": 93,
+          "endcolumn": 1,
+          "description": "The class \u0027JmxEndpointProperties\u0027 is suspected to be a Data Class (WOC\u003d0.000%, NOPA\u003d0, NOAM\u003d4, WMC\u003d4)",
+          "rule": "DataClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#dataclass"
+        },
+        {
+          "beginline": 34,
+          "begincolumn": 23,
+          "endline": 34,
+          "endcolumn": 57,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 42,
+          "begincolumn": 1,
+          "endline": 42,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 55,
+          "begincolumn": 31,
+          "endline": 55,
+          "endcolumn": 43,
+          "description": "Parameter \u0027domain\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 63,
+          "begincolumn": 23,
+          "endline": 91,
+          "endcolumn": 9,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 63,
+          "begincolumn": 23,
+          "endline": 91,
+          "endcolumn": 9,
+          "description": "The class \u0027Exposure\u0027 is suspected to be a Data Class (WOC\u003d0.000%, NOPA\u003d0, NOAM\u003d4, WMC\u003d4)",
+          "rule": "DataClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#dataclass"
+        },
+        {
+          "beginline": 79,
+          "begincolumn": 40,
+          "endline": 79,
+          "endcolumn": 58,
+          "description": "Parameter \u0027include\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 87,
+          "begincolumn": 40,
+          "endline": 87,
+          "endcolumn": 58,
+          "description": "Parameter \u0027exclude\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/JvmMetricsAutoConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 43,
+          "begincolumn": 8,
+          "endline": 69,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 47,
+          "begincolumn": 16,
+          "endline": 49,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 53,
+          "begincolumn": 16,
+          "endline": 55,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 59,
+          "begincolumn": 16,
+          "endline": 61,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 65,
+          "begincolumn": 16,
+          "endline": 67,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/MailSenderAutoConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 48,
+          "begincolumn": 8,
+          "endline": 72,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 51,
+          "begincolumn": 1,
+          "endline": 51,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 54,
+          "begincolumn": 16,
+          "endline": 70,
+          "endcolumn": 9,
+          "description": "To avoid mistakes add a comment at the beginning of the MailSenderCondition nested class if you want a default access modifier",
+          "rule": "CommentDefaultAccessModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier"
+        },
+        {
+          "beginline": 56,
+          "begincolumn": 17,
+          "endline": 58,
+          "endcolumn": 17,
+          "description": "To avoid mistakes add a comment at the beginning of the MailSenderCondition constructor if you want a default access modifier",
+          "rule": "CommentDefaultAccessModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier"
+        },
+        {
+          "beginline": 61,
+          "begincolumn": 24,
+          "endline": 63,
+          "endcolumn": 17,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 61,
+          "begincolumn": 24,
+          "endline": 63,
+          "endcolumn": 17,
+          "description": "To avoid mistakes add a comment at the beginning of the HostProperty nested class if you want a default access modifier",
+          "rule": "CommentDefaultAccessModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier"
+        },
+        {
+          "beginline": 66,
+          "begincolumn": 24,
+          "endline": 68,
+          "endcolumn": 17,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 66,
+          "begincolumn": 24,
+          "endline": 68,
+          "endcolumn": 17,
+          "description": "To avoid mistakes add a comment at the beginning of the JndiNameProperty nested class if you want a default access modifier",
+          "rule": "CommentDefaultAccessModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/MailSenderValidatorAutoConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 43,
+          "begincolumn": 23,
+          "endline": 43,
+          "endcolumn": 52,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 43,
+          "begincolumn": 42,
+          "endline": 43,
+          "endcolumn": 51,
+          "description": "Found non-transient, non-static member. Please mark as transient or provide accessors.",
+          "rule": "BeanMembersShouldSerialize",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#beanmembersshouldserialize"
+        },
+        {
+          "beginline": 45,
+          "begincolumn": 53,
+          "endline": 45,
+          "endcolumn": 81,
+          "description": "Parameter \u0027mailSender\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 45,
+          "begincolumn": 16,
+          "endline": 47,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 50,
+          "begincolumn": 16,
+          "endline": 57,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/NoOpReactiveSessionConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 25,
+          "begincolumn": 1,
+          "endline": 25,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 33,
+          "begincolumn": 1,
+          "endline": 35,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/NoOpSessionConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 25,
+          "begincolumn": 1,
+          "endline": 25,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 32,
+          "begincolumn": 1,
+          "endline": 34,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/PathMapper.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 26,
+          "begincolumn": 1,
+          "endline": 26,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 39,
+          "begincolumn": 1,
+          "endline": 39,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/RabbitMetricsAutoConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 45,
+          "endline": 54,
+          "endcolumn": 1,
+          "description": "All methods are static.  Consider using a utility class instead. Alternatively, you could add a private constructor or make the class abstract to silence this warning.",
+          "rule": "UseUtilityClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#useutilityclass"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 8,
+          "endline": 54,
+          "endcolumn": 1,
+          "description": "The utility class name \u0027RabbitMetricsAutoConfiguration\u0027 doesn\u0027t match \u0027[A-Z][a-zA-Z0-9]+(Utils?|Helper|Constants)\u0027",
+          "rule": "ClassNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#classnamingconventions"
+        },
+        {
+          "beginline": 49,
+          "begincolumn": 23,
+          "endline": 52,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 50,
+          "begincolumn": 44,
+          "endline": 50,
+          "endcolumn": 61,
+          "description": "Avoid excessively long variable names like applicationContext",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 50,
+          "begincolumn": 25,
+          "endline": 50,
+          "endcolumn": 61,
+          "description": "Parameter \u0027applicationContext\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/ReactiveManagementContextAutoConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 29,
+          "begincolumn": 1,
+          "endline": 29,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 38,
+          "begincolumn": 8,
+          "endline": 45,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 41,
+          "begincolumn": 16,
+          "endline": 43,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/ScannedFactoryBeanConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 26,
+          "begincolumn": 1,
+          "endline": 26,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 32,
+          "begincolumn": 8,
+          "endline": 39,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 35,
+          "begincolumn": 16,
+          "endline": 37,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/ScannedFactoryBeanWithBeanMethodArgumentsConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 8,
+          "endline": 46,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 33,
+          "begincolumn": 16,
+          "endline": 35,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 38,
+          "begincolumn": 58,
+          "endline": 38,
+          "endcolumn": 64,
+          "description": "Parameter \u0027foo\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 38,
+          "begincolumn": 16,
+          "endline": 40,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 42,
+          "begincolumn": 16,
+          "endline": 44,
+          "endcolumn": 9,
+          "description": "Avoid short class names like Foo",
+          "rule": "ShortClassName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#shortclassname"
+        },
+        {
+          "beginline": 42,
+          "begincolumn": 16,
+          "endline": 44,
+          "endcolumn": 9,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 42,
+          "begincolumn": 16,
+          "endline": 44,
+          "endcolumn": 9,
+          "description": "To avoid mistakes add a comment at the beginning of the Foo nested class if you want a default access modifier",
+          "rule": "CommentDefaultAccessModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/ServerWebExchangeTraceableRequest.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 35,
+          "begincolumn": 1,
+          "endline": 79,
+          "endcolumn": 1,
+          "description": "The class \u0027ServerWebExchangeTraceableRequest\u0027 is suspected to be a Data Class (WOC\u003d0.000%, NOPA\u003d0, NOAM\u003d4, WMC\u003d8)",
+          "rule": "DataClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#dataclass"
+        },
+        {
+          "beginline": 37,
+          "begincolumn": 23,
+          "endline": 37,
+          "endcolumn": 36,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 39,
+          "begincolumn": 23,
+          "endline": 39,
+          "endcolumn": 56,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 41,
+          "begincolumn": 23,
+          "endline": 41,
+          "endcolumn": 30,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 43,
+          "begincolumn": 23,
+          "endline": 43,
+          "endcolumn": 43,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 45,
+          "begincolumn": 43,
+          "endline": 45,
+          "endcolumn": 68,
+          "description": "Parameter \u0027exchange\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 45,
+          "begincolumn": 9,
+          "endline": 51,
+          "endcolumn": 9,
+          "description": "To avoid mistakes add a comment at the beginning of the ServerWebExchangeTraceableRequest constructor if you want a default access modifier",
+          "rule": "CommentDefaultAccessModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 17,
+          "endline": 46,
+          "endcolumn": 65,
+          "description": "Local variable \u0027request\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 53,
+          "begincolumn": 48,
+          "endline": 53,
+          "endcolumn": 72,
+          "description": "Parameter \u0027request\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 54,
+          "begincolumn": 17,
+          "endline": 54,
+          "endcolumn": 76,
+          "description": "Local variable \u0027remoteAddress\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 55,
+          "begincolumn": 39,
+          "endline": 55,
+          "endcolumn": 97,
+          "description": "Avoid if (x !\u003d y) ..; else ..;",
+          "rule": "ConfusingTernary",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#confusingternary"
+        },
+        {
+          "beginline": 55,
+          "begincolumn": 17,
+          "endline": 55,
+          "endcolumn": 97,
+          "description": "Local variable \u0027address\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 55,
+          "begincolumn": 65,
+          "endline": 55,
+          "endcolumn": 90,
+          "description": "Potential violation of Law of Demeter (object not created locally)",
+          "rule": "LawOfDemeter",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#lawofdemeter"
+        },
+        {
+          "beginline": 56,
+          "begincolumn": 24,
+          "endline": 56,
+          "endcolumn": 68,
+          "description": "Avoid if (x !\u003d y) ..; else ..;",
+          "rule": "ConfusingTernary",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#confusingternary"
+        },
+        {
+          "beginline": 56,
+          "begincolumn": 44,
+          "endline": 56,
+          "endcolumn": 61,
+          "description": "Potential violation of Law of Demeter (object not created locally)",
+          "rule": "LawOfDemeter",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#lawofdemeter"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/SpringBootWebSecurityConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 28,
+          "begincolumn": 1,
+          "endline": 37,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 1,
+          "endline": 30,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 31,
+          "begincolumn": 1,
+          "endline": 31,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 32,
+          "begincolumn": 1,
+          "endline": 32,
+          "endcolumn": 2,
+          "description": "Comment is too large: Line too long",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 42,
+          "begincolumn": 8,
+          "endline": 50,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 16,
+          "endline": 48,
+          "endcolumn": 9,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 16,
+          "endline": 48,
+          "endcolumn": 9,
+          "description": "To avoid mistakes add a comment at the beginning of the DefaultConfigurerAdapter nested class if you want a default access modifier",
+          "rule": "CommentDefaultAccessModifier",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#commentdefaultaccessmodifier"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/SystemMetricsAutoConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 42,
+          "begincolumn": 8,
+          "endline": 62,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 16,
+          "endline": 48,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 52,
+          "begincolumn": 16,
+          "endline": 54,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 58,
+          "begincolumn": 16,
+          "endline": 60,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/TaskExecutionProperties.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 31,
+          "begincolumn": 8,
+          "endline": 161,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 31,
+          "begincolumn": 8,
+          "endline": 161,
+          "endcolumn": 1,
+          "description": "The class \u0027TaskExecutionProperties\u0027 is suspected to be a Data Class (WOC\u003d0.000%, NOPA\u003d0, NOAM\u003d4, WMC\u003d4)",
+          "rule": "DataClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#dataclass"
+        },
+        {
+          "beginline": 33,
+          "begincolumn": 23,
+          "endline": 33,
+          "endcolumn": 45,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 35,
+          "begincolumn": 23,
+          "endline": 35,
+          "endcolumn": 57,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 54,
+          "begincolumn": 41,
+          "endline": 54,
+          "endcolumn": 63,
+          "description": "Parameter \u0027threadNamePrefix\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 58,
+          "begincolumn": 23,
+          "endline": 129,
+          "endcolumn": 9,
+          "description": "Avoid short class names like Pool",
+          "rule": "ShortClassName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#shortclassname"
+        },
+        {
+          "beginline": 58,
+          "begincolumn": 23,
+          "endline": 129,
+          "endcolumn": 9,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 58,
+          "begincolumn": 23,
+          "endline": 129,
+          "endcolumn": 9,
+          "description": "The class \u0027Pool\u0027 is suspected to be a Data Class (WOC\u003d0.000%, NOPA\u003d0, NOAM\u003d10, WMC\u003d10)",
+          "rule": "DataClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#dataclass"
+        },
+        {
+          "beginline": 82,
+          "begincolumn": 33,
+          "endline": 82,
+          "endcolumn": 54,
+          "description": "Avoid excessively long variable names like allowCoreThreadTimeout",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 93,
+          "begincolumn": 46,
+          "endline": 93,
+          "endcolumn": 62,
+          "description": "Parameter \u0027queueCapacity\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 101,
+          "begincolumn": 41,
+          "endline": 101,
+          "endcolumn": 52,
+          "description": "Parameter \u0027coreSize\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 109,
+          "begincolumn": 40,
+          "endline": 109,
+          "endcolumn": 50,
+          "description": "Parameter \u0027maxSize\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 117,
+          "begincolumn": 63,
+          "endline": 117,
+          "endcolumn": 84,
+          "description": "Avoid excessively long variable names like allowCoreThreadTimeout",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 117,
+          "begincolumn": 55,
+          "endline": 117,
+          "endcolumn": 84,
+          "description": "Parameter \u0027allowCoreThreadTimeout\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 125,
+          "begincolumn": 42,
+          "endline": 125,
+          "endcolumn": 59,
+          "description": "Parameter \u0027keepAlive\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 131,
+          "begincolumn": 23,
+          "endline": 159,
+          "endcolumn": 9,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 131,
+          "begincolumn": 23,
+          "endline": 159,
+          "endcolumn": 9,
+          "description": "The class \u0027Shutdown\u0027 is suspected to be a Data Class (WOC\u003d0.000%, NOPA\u003d0, NOAM\u003d4, WMC\u003d4)",
+          "rule": "DataClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#dataclass"
+        },
+        {
+          "beginline": 141,
+          "begincolumn": 34,
+          "endline": 141,
+          "endcolumn": 55,
+          "description": "Avoid excessively long variable names like awaitTerminationPeriod",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 147,
+          "begincolumn": 49,
+          "endline": 147,
+          "endcolumn": 72,
+          "description": "Parameter \u0027awaitTermination\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 155,
+          "begincolumn": 64,
+          "endline": 155,
+          "endcolumn": 85,
+          "description": "Avoid excessively long variable names like awaitTerminationPeriod",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 155,
+          "begincolumn": 55,
+          "endline": 155,
+          "endcolumn": 85,
+          "description": "Parameter \u0027awaitTerminationPeriod\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/TaskSchedulingProperties.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 8,
+          "endline": 104,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 30,
+          "begincolumn": 8,
+          "endline": 104,
+          "endcolumn": 1,
+          "description": "The class \u0027TaskSchedulingProperties\u0027 is suspected to be a Data Class (WOC\u003d0.000%, NOPA\u003d0, NOAM\u003d4, WMC\u003d4)",
+          "rule": "DataClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#dataclass"
+        },
+        {
+          "beginline": 32,
+          "begincolumn": 23,
+          "endline": 32,
+          "endcolumn": 45,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 34,
+          "begincolumn": 23,
+          "endline": 34,
+          "endcolumn": 57,
+          "description": "Field comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 53,
+          "begincolumn": 41,
+          "endline": 53,
+          "endcolumn": 63,
+          "description": "Parameter \u0027threadNamePrefix\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 57,
+          "begincolumn": 23,
+          "endline": 72,
+          "endcolumn": 9,
+          "description": "Avoid short class names like Pool",
+          "rule": "ShortClassName",
+          "ruleset": "Code Style",
+          "priority": 4,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#shortclassname"
+        },
+        {
+          "beginline": 57,
+          "begincolumn": 23,
+          "endline": 72,
+          "endcolumn": 9,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 68,
+          "begincolumn": 37,
+          "endline": 68,
+          "endcolumn": 44,
+          "description": "Parameter \u0027size\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 74,
+          "begincolumn": 23,
+          "endline": 102,
+          "endcolumn": 9,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 74,
+          "begincolumn": 23,
+          "endline": 102,
+          "endcolumn": 9,
+          "description": "The class \u0027Shutdown\u0027 is suspected to be a Data Class (WOC\u003d0.000%, NOPA\u003d0, NOAM\u003d4, WMC\u003d4)",
+          "rule": "DataClass",
+          "ruleset": "Design",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_design.html#dataclass"
+        },
+        {
+          "beginline": 84,
+          "begincolumn": 34,
+          "endline": 84,
+          "endcolumn": 55,
+          "description": "Avoid excessively long variable names like awaitTerminationPeriod",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 90,
+          "begincolumn": 49,
+          "endline": 90,
+          "endcolumn": 72,
+          "description": "Parameter \u0027awaitTermination\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 98,
+          "begincolumn": 64,
+          "endline": 98,
+          "endcolumn": 85,
+          "description": "Avoid excessively long variable names like awaitTerminationPeriod",
+          "rule": "LongVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#longvariable"
+        },
+        {
+          "beginline": 98,
+          "begincolumn": 55,
+          "endline": 98,
+          "endcolumn": 85,
+          "description": "Parameter \u0027awaitTerminationPeriod\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/spring-projects_spring-boot/TomcatMetricsAutoConfiguration.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 15,
+          "endcolumn": 2,
+          "description": "Comment is too large: Too many lines",
+          "rule": "CommentSize",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentsize"
+        },
+        {
+          "beginline": 41,
+          "begincolumn": 8,
+          "endline": 50,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 56,
+          "endline": 46,
+          "endcolumn": 82,
+          "description": "Parameter \u0027meterRegistry\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 46,
+          "begincolumn": 16,
+          "endline": 48,
+          "endcolumn": 9,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        }
+      ]
+    }
+  ],
+  "suppressedViolations": [],
+  "processingErrors": [],
+  "configurationErrors": [
+    {
+      "rule": "LoosePackageCoupling",
+      "ruleset": "Design",
+      "message": "No packages or classes specified"
+    }
+  ]
+}

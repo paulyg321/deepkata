@@ -1,0 +1,422 @@
+{
+  "formatVersion": 0,
+  "pmdVersion": "6.26.0",
+  "timestamp": "2020-08-06T20:33:06.099-04:00",
+  "files": [
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/MisterBooo_LeetCodeAnimation/1.java",
+      "violations": [
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 34,
+          "endcolumn": 1,
+          "description": "All classes, interfaces, enums and annotations must belong to a named package",
+          "rule": "NoPackage",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#nopackage"
+        },
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 34,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 1,
+          "begincolumn": 1,
+          "endline": 34,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 2,
+          "begincolumn": 39,
+          "endline": 2,
+          "endcolumn": 39,
+          "description": "Avoid variables with short names like s",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 2,
+          "begincolumn": 32,
+          "endline": 2,
+          "endcolumn": 39,
+          "description": "Parameter \u0027s\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 2,
+          "begincolumn": 12,
+          "endline": 33,
+          "endcolumn": 5,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 17,
+          "endline": 23,
+          "endcolumn": 62,
+          "description": "Found \u0027DD\u0027-anomaly for variable \u0027res\u0027 (lines \u00273\u0027-\u002723\u0027).",
+          "rule": "DataflowAnomalyAnalysis",
+          "ruleset": "Error Prone",
+          "priority": 5,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 13,
+          "endline": 33,
+          "endcolumn": 21,
+          "description": "Found \u0027DU\u0027-anomaly for variable \u0027multi\u0027 (lines \u00274\u0027-\u002733\u0027).",
+          "rule": "DataflowAnomalyAnalysis",
+          "ruleset": "Error Prone",
+          "priority": 5,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis"
+        },
+        {
+          "beginline": 6,
+          "begincolumn": 24,
+          "endline": 33,
+          "endcolumn": 48,
+          "description": "Found \u0027DU\u0027-anomaly for variable \u0027stack_multi\u0027 (lines \u00276\u0027-\u002733\u0027).",
+          "rule": "DataflowAnomalyAnalysis",
+          "ruleset": "Error Prone",
+          "priority": 5,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis"
+        },
+        {
+          "beginline": 6,
+          "begincolumn": 9,
+          "endline": 6,
+          "endcolumn": 48,
+          "description": "Local variable \u0027stack_multi\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 6,
+          "begincolumn": 24,
+          "endline": 6,
+          "endcolumn": 34,
+          "description": "The local variable name \u0027stack_multi\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "LocalVariableNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablenamingconventions"
+        },
+        {
+          "beginline": 7,
+          "begincolumn": 23,
+          "endline": 33,
+          "endcolumn": 45,
+          "description": "Found \u0027DU\u0027-anomaly for variable \u0027stack_res\u0027 (lines \u00277\u0027-\u002733\u0027).",
+          "rule": "DataflowAnomalyAnalysis",
+          "ruleset": "Error Prone",
+          "priority": 5,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis"
+        },
+        {
+          "beginline": 7,
+          "begincolumn": 9,
+          "endline": 7,
+          "endcolumn": 45,
+          "description": "Local variable \u0027stack_res\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 7,
+          "begincolumn": 23,
+          "endline": 7,
+          "endcolumn": 31,
+          "description": "The local variable name \u0027stack_res\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "LocalVariableNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablenamingconventions"
+        },
+        {
+          "beginline": 10,
+          "begincolumn": 18,
+          "endline": 10,
+          "endcolumn": 18,
+          "description": "Avoid variables with short names like c",
+          "rule": "ShortVariable",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#shortvariable"
+        },
+        {
+          "beginline": 10,
+          "begincolumn": 13,
+          "endline": 10,
+          "endcolumn": 32,
+          "description": "Local variable \u0027c\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 11,
+          "begincolumn": 17,
+          "endline": 11,
+          "endcolumn": 19,
+          "description": "Avoid using Literals in Conditional Statements",
+          "rule": "AvoidLiteralsInIfCondition",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition"
+        },
+        {
+          "beginline": 14,
+          "begincolumn": 17,
+          "endline": 33,
+          "endcolumn": 25,
+          "description": "Found \u0027DU\u0027-anomaly for variable \u0027multi\u0027 (lines \u002714\u0027-\u002733\u0027).",
+          "rule": "DataflowAnomalyAnalysis",
+          "ruleset": "Error Prone",
+          "priority": 5,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis"
+        },
+        {
+          "beginline": 15,
+          "begincolumn": 23,
+          "endline": 15,
+          "endcolumn": 41,
+          "description": "Avoid instantiating new objects inside loops",
+          "rule": "AvoidInstantiatingObjectsInLoops",
+          "ruleset": "Performance",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops"
+        },
+        {
+          "beginline": 15,
+          "begincolumn": 17,
+          "endline": 23,
+          "endcolumn": 62,
+          "description": "Found \u0027DD\u0027-anomaly for variable \u0027res\u0027 (lines \u002715\u0027-\u002723\u0027).",
+          "rule": "DataflowAnomalyAnalysis",
+          "ruleset": "Error Prone",
+          "priority": 5,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis"
+        },
+        {
+          "beginline": 17,
+          "begincolumn": 22,
+          "endline": 17,
+          "endcolumn": 24,
+          "description": "Avoid using Literals in Conditional Statements",
+          "rule": "AvoidLiteralsInIfCondition",
+          "ruleset": "Error Prone",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#avoidliteralsinifcondition"
+        },
+        {
+          "beginline": 18,
+          "begincolumn": 37,
+          "endline": 18,
+          "endcolumn": 55,
+          "description": "Avoid instantiating new objects inside loops",
+          "rule": "AvoidInstantiatingObjectsInLoops",
+          "ruleset": "Performance",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops"
+        },
+        {
+          "beginline": 18,
+          "begincolumn": 17,
+          "endline": 18,
+          "endcolumn": 55,
+          "description": "Local variable \u0027tmp\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 19,
+          "begincolumn": 17,
+          "endline": 19,
+          "endcolumn": 49,
+          "description": "Local variable \u0027cur_multi\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        },
+        {
+          "beginline": 19,
+          "begincolumn": 21,
+          "endline": 19,
+          "endcolumn": 29,
+          "description": "The local variable name \u0027cur_multi\u0027 doesn\u0027t match \u0027[a-z][a-zA-Z0-9]*\u0027",
+          "rule": "LocalVariableNamingConventions",
+          "ruleset": "Code Style",
+          "priority": 1,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablenamingconventions"
+        },
+        {
+          "beginline": 23,
+          "begincolumn": 23,
+          "endline": 23,
+          "endcolumn": 62,
+          "description": "Avoid instantiating new objects inside loops",
+          "rule": "AvoidInstantiatingObjectsInLoops",
+          "ruleset": "Performance",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_performance.html#avoidinstantiatingobjectsinloops"
+        },
+        {
+          "beginline": 23,
+          "begincolumn": 17,
+          "endline": 23,
+          "endcolumn": 62,
+          "description": "Found \u0027DD\u0027-anomaly for variable \u0027res\u0027 (lines \u002723\u0027-\u002723\u0027).",
+          "rule": "DataflowAnomalyAnalysis",
+          "ruleset": "Error Prone",
+          "priority": 5,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis"
+        },
+        {
+          "beginline": 26,
+          "begincolumn": 17,
+          "endline": 33,
+          "endcolumn": 46,
+          "description": "Found \u0027DU\u0027-anomaly for variable \u0027multi\u0027 (lines \u002726\u0027-\u002733\u0027).",
+          "rule": "DataflowAnomalyAnalysis",
+          "ruleset": "Error Prone",
+          "priority": 5,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_errorprone.html#dataflowanomalyanalysis"
+        }
+      ]
+    },
+    {
+      "filename": "/home/paul/Desktop/deepkata/test/MisterBooo_LeetCodeAnimation/2.java",
+      "violations": [
+        {
+          "beginline": 3,
+          "begincolumn": 1,
+          "endline": 21,
+          "endcolumn": 1,
+          "description": "All classes, interfaces, enums and annotations must belong to a named package",
+          "rule": "NoPackage",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#nopackage"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 1,
+          "endline": 21,
+          "endcolumn": 1,
+          "description": "Class comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 3,
+          "begincolumn": 1,
+          "endline": 21,
+          "endcolumn": 1,
+          "description": "Each class should declare at least one constructor",
+          "rule": "AtLeastOneConstructor",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#atleastoneconstructor"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 29,
+          "endline": 4,
+          "endcolumn": 38,
+          "description": "Parameter \u0027nums\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 41,
+          "endline": 4,
+          "endcolumn": 50,
+          "description": "Parameter \u0027target\u0027 is not assigned and could be declared final",
+          "rule": "MethodArgumentCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#methodargumentcouldbefinal"
+        },
+        {
+          "beginline": 4,
+          "begincolumn": 12,
+          "endline": 20,
+          "endcolumn": 5,
+          "description": "Public method and constructor comments are required",
+          "rule": "CommentRequired",
+          "ruleset": "Documentation",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_documentation.html#commentrequired"
+        },
+        {
+          "beginline": 6,
+          "begincolumn": 13,
+          "endline": 6,
+          "endcolumn": 31,
+          "description": "A method should have only one exit point, and that should be the last statement in the method",
+          "rule": "OnlyOneReturn",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#onlyonereturn"
+        },
+        {
+          "beginline": 11,
+          "begincolumn": 13,
+          "endline": 11,
+          "endcolumn": 40,
+          "description": "Local variable \u0027mid\u0027 could be declared final",
+          "rule": "LocalVariableCouldBeFinal",
+          "ruleset": "Code Style",
+          "priority": 3,
+          "externalInfoUrl": "https://pmd.github.io/pmd-6.26.0/pmd_rules_java_codestyle.html#localvariablecouldbefinal"
+        }
+      ]
+    }
+  ],
+  "suppressedViolations": [],
+  "processingErrors": [],
+  "configurationErrors": [
+    {
+      "rule": "LoosePackageCoupling",
+      "ruleset": "Design",
+      "message": "No packages or classes specified"
+    }
+  ]
+}
