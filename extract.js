@@ -55,8 +55,7 @@ const retrieveFromUrl = (repoName) => {
 
 const executePMD = (folderName) => {
     exec(
-        // `./pmd-bin-6.26.0/bin/run.sh pmd -d ./${codeFolder}/${folderName}/ -R ruleset.xml -f json > ./${codeFolder}/${jsonFolder}/${folderName}.json`, 
-        `node parse.js`,
+        `./pmd-bin-6.26.0/bin/run.sh pmd -d ./${codeFolder}/${folderName}/ -R ruleset.xml -f json > ./${codeFolder}/${jsonFolder}/${folderName}.json`, 
         (err, stdout, stderr) => {
             if(err){
                 console.log("error:", err);
@@ -68,8 +67,7 @@ const executePMD = (folderName) => {
             console.log("stdout:", stdout);
             console.log("stderr:", stderr);
         })
-
-    console.log("after exec")
+        
     }
 
 
